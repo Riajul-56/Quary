@@ -1,0 +1,322 @@
+/* ============= common css start============= */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+
+/* ============= common css end============= */
+
+/* ============= nav css start============= */
+nav {
+    margin-top: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+nav ul li:hover {
+    color: #000000;
+}
+
+/* ============= nav css end============= */
+/* ============= banner css start============= */
+#banner {
+    background: url('../Imeges/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner .text_area {
+    padding-top: 462px;
+   padding-bottom: 400px;
+}
+
+#banner .text_area h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFC178;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+#banner .text_area h1 {
+    font-size: 96px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 100px;
+    margin-top: 37px;
+}
+
+#banner .text_area h2 {
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+/* ============= banner css end============= */
+/* ============= nusa css start============= */
+#Nusa {
+    margin-top: 286px;
+    margin-bottom: 295px;
+}
+
+#Nusa .first {
+    display: flex;
+    gap: 23px;
+}
+
+#Nusa .first .text_area {
+    margin-top: 55px;
+    width: 587px;
+}
+
+#Nusa .first .text_area h4 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    /* margin-top: 78px; */
+    margin-bottom: 13px;
+}
+
+#Nusa .first .text_area h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    /* letter-spacing: 6px; */
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+#Nusa .first .text_area p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 66px;
+    line-height: 32px;
+}
+
+#Nusa .first .text_area a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* ============= nusa css end============= */
+/* ============= steady css start============= */
+
+.steady_main {
+    background: url('../Imeges/third banner.jpg');
+}
+
+.steady_area {
+    text-align: center;
+    padding-top: 559px;
+    padding-bottom: 32px;
+}
+
+.steady_area h5 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.steady_area h2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 932px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+.steady_area p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 32px;
+    width: 893px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 26px
+}
+
+.steady_area a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* ============= steady css end============= */
+/* ============= culture css start============= */
+
+#culture {
+    margin-top: 295px;
+}
+.culture_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.culture_text h5 {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+
+.culture_text h2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 663px;
+    margin-top: 19px;
+}
+
+.culture_text p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 32px;
+    width: 655px;
+    text-transform: uppercase;
+    margin-top: 19px;
+    margin-bottom: 47px;
+}
+
+.culture_text a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* ============= culture css end============= */
+/* ============= footer css start============= */
+footer{
+    margin-top: 190px;
+    margin-bottom: 30px;
+}
+.footer_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_top img{
+    width: 173px;
+}
+.footer_center_one i{
+    color: #FFFFFF;
+    margin-top: 34px;
+    margin-right: 29px;
+}
+.footer_top{
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: -0.3px;
+}
+.footer_top button{
+    background: #FFA343;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    padding: 18px 67px;
+    border: none;
+    border-radius: 10px;
+}
+.footer_top_right{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.footer_center{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+.footer_center_one h3{
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: -0.3px;
+    width: 405px;
+    margin-top: 24px;
+}
+.footer_center_one h6{
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: -0.2px;
+    margin-top: 49px;
+}
+.footer_center_item h4{
+    color: #FBD784;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin-bottom: 2px;
+} 
+.footer_center_item ul li{
+    font-size: 19px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: -0.2px;
+    list-style: none;
+    margin-top: 9px;
+}
+.footer_copyright{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 153px;
+}
+
+
+/* ============= footer css end============= */
